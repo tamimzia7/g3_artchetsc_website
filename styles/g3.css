@@ -33,7 +33,7 @@
     font-weight: 600;
     border-radius: 8px;
     border: none;
-    display: inline-block; /* This prevents full-width stretch */
+    display: inline-block; 
     text-align: center;
     
 }
@@ -151,9 +151,24 @@ main>section{
 #our{
     color: #131313;
 }
+.despricption{
+    color: #727272;
+    max-width: 530px;
+}
 @media screen and (max-width:576px){
     .navbar, .nav-links{
         flex-direction: column;
     }
     
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+ .teams {
+    margin-left: 20px;
+    flex-direction: column;
+ }
+ .our-fetures{
+    margin-left: 50px;
+ }
 }
