@@ -180,6 +180,45 @@ main>section{
     
  
 }
+.features{
+  
+    gap: 140px;
+}
+.section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+
+}
+.feature-ar img{
+    width: 100%;
+}
+#ex-badgs{
+    padding: 45px 42px ;
+    margin-left: -100px;
+    margin-top: -100px;
+    
+
+}
+.features-card{
+    padding: 30px;
+    box-shadow:0 4px 30px 0 rgb(24, 2, 2) ;
+    margin: 2opx;
+    border-radius: 8px;
+
+}
+.feture-card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+}
+#ex-br{
+    font-size: 4rem;
+}
+#ex-p{
+    font-size: 1.8rem;
+}
 .fact-name {
     font-size: 1.25rem;
 }
@@ -209,6 +248,7 @@ main>section{
 
     filter: grayscale(100%);
 }
+
 @media screen and (max-width:576px){
     .navbar, .nav-links{
         flex-direction: column;
@@ -216,7 +256,10 @@ main>section{
     
     .team-img-container,  
     .facts-container,
-    .sponsors-companys
+    .sponsors-companys,
+    .features,
+    .feature-ar 
+   
     {
         grid-template-columns: repeat(1,1fr);
 
@@ -237,7 +280,41 @@ main>section{
     gap: 24px;
 
  }
+ #ex-badgs{
+    margin-top: 20px;
+    margin-left: 20px;
+
+ }
+ .features {
+        flex-direction: column;
+    }
+
+    .feature-ar {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ex-badgs {
+        position: static;
+        margin-top: 20px;
+        padding: 20px 25px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #ex-br {
+        font-size: 2.5rem;
+    }
+
+    #ex-p {
+        font-size: 1.2rem;
+    }
 }
+
+ 
+
 
 @media screen and (min-width: 576px) and (max-width:992px){
     .teams
