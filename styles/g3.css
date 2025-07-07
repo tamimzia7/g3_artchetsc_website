@@ -248,6 +248,20 @@ main>section{
 
     filter: grayscale(100%);
 }
+#gap{
+    margin-top: 130px;
+}
+.footer {
+    
+    background-color: #FFF4E7;
+    
+    max-width: 1440px;
+    min-height: 100px;
+    align-content: center;
+    text-align: center;
+    
+    margin: auto;
+}
 
 @media screen and (max-width:576px){
     .navbar, .nav-links{
@@ -285,6 +299,8 @@ main>section{
     margin-left: 20px;
 
  }
+
+ /* img resposive part so hard */
  .features {
         flex-direction: column;
     }
@@ -295,14 +311,14 @@ main>section{
         flex-direction: column;
         align-items: center;
     }
-
+/* 
     #ex-badgs {
         position: static;
         margin-top: 20px;
         padding: 20px 25px;
         font-size: 1rem;
         text-align: center;
-    }
+    } */
 
     #ex-br {
         font-size: 2.5rem;
@@ -317,7 +333,8 @@ main>section{
 
 
 @media screen and (min-width: 576px) and (max-width:992px){
-    .teams
+    .teams,
+    .features
     {
         flex-direction: column;
     }
@@ -330,6 +347,10 @@ main>section{
         grid-template-columns: repeat(3.1fr);
         gap: 30px;
     }
+ #ex-badgs{
+    margin-top: 20px;
+    margin-left: 20px;
 
+ }
     
 }
